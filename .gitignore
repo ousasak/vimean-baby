@@ -1,0 +1,42 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+.env.production
+**/.env.production
+real.env
+**/real.env
+**/application-local.yml
+
+# Backend (Maven)
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+!backend/.mvn/wrapper/maven-wrapper.properties
+
+# Node
+node_modules/
+.nuxt/
+.output/
+.nitro/
+.cache/
+dist/
+*.log
+npm-debug.log*
+
+# Frontend env
+user-frontend/.env
+user-frontend/.env.production
+admin-frontend/.env
+admin-frontend/.env.production
+
+# Docker
+*.pid

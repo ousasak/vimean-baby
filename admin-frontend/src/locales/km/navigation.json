@@ -1,0 +1,19 @@
+{
+  "main": "ម៉ឺនុយមេ",
+  "openMenu": "បើកម៉ឺនុយ",
+  "viewStore": "មើលហាង",
+  "dashboard": "ផ្ទាំងគ្រប់គ្រង",
+  "orders": "ការបញ្ជាទិញ",
+  "customers": "អតិថិជន",
+  "products": "ផលិតផល",
+  "inventory": "ស្តុកទំនិញ",
+  "categories": "ប្រភេទ",
+  "brands": "ម៉ាក",
+  "settings": "ការកំណត់",
+  "groups": {
+    "overview": "ទិដ្ឋភាពទូទៅ",
+    "sales": "ការលក់",
+    "catalog": "កាតាឡុក",
+    "system": "ប្រព័ន្ធ"
+  }
+}

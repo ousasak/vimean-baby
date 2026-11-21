@@ -1,0 +1,33 @@
+{
+  "greeting": {
+    "morning": "អរុណសួស្តី",
+    "afternoon": "ទិវាសួស្តី",
+    "evening": "សាយណ្ហសួស្តី"
+  },
+  "ordersNotice": "របាយការណ៍ការបញ្ជាទិញ និងចំណូលនឹងបង្ហាញនៅទីនេះ នៅពេលការទូទាត់អនឡាញដំណើរការ។",
+  "stats": {
+    "inventoryValue": "តម្លៃស្តុក",
+    "units": "{count} ឯកតាក្នុងស្តុក",
+    "products": "ផលិតផល",
+    "publishedDrafts": "{published} បានផ្សាយ · {drafts} ព្រាង",
+    "customers": "អតិថិជន",
+    "newCustomers": "+{count} ក្នុង 30 ថ្ងៃចុងក្រោយ",
+    "attention": "ត្រូវយកចិត្តទុកដាក់",
+    "attentionHint": "{low} ស្តុកទាប · {out} អស់ស្តុក · {expiring} ជិតផុតកំណត់"
+  },
+  "signups": {
+    "title": "អតិថិជនថ្មី",
+    "subtitle": "ការចុះឈ្មោះក្នុង 14 ថ្ងៃចុងក្រោយ"
+  },
+  "catalogHealth": "ស្ថានភាពកាតាឡុក",
+  "sellableVariants": "វ៉ារ្យ៉ង់ដែលអាចលក់បាន",
+  "thresholds": "ស្តុកទាបនៅពេលសល់ {threshold} ឯកតា ឬតិចជាង · ជូនដំណឹងផុតកំណត់មុន {days} ថ្ងៃ",
+  "lowStock": "ស្តុកទាប",
+  "expiring": "ជិតផុតកំណត់",
+  "allStocked": "ស្តុកទាំងអស់គ្រប់គ្រាន់។",
+  "noExpiring": "គ្មានទំនិញជិតផុតកំណត់ទេ។",
+  "noExpiringHint": "គ្មានវ៉ារ្យ៉ង់ណាផុតកំណត់ក្នុង {days} ថ្ងៃខាងមុខទេ។",
+  "byCategory": "ផលិតផលតាមប្រភេទ",
+  "recentProducts": "ផលិតផលបន្ថែមថ្មីៗ",
+  "recentCustomers": "អតិថិជនថ្មីបំផុត"
+}

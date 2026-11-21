@@ -1,0 +1,29 @@
+{
+  "product": {
+    "addToCart": "+ កន្ត្រក",
+    "onlyLeft": "នៅសល់តែ {count}",
+    "discount": "-{percent}%",
+    "from": "ចាប់ពី",
+    "outOfStock": "អស់ស្តុក",
+    "description": "ពិពណ៌នា",
+    "variants": "ជម្រើស",
+    "age": "អាយុ",
+    "origin": "ប្រភព",
+    "brand": "ម៉ាក",
+    "featured": "ពិសេស",
+    "expiry": "ថ្ងៃផុតកំណត់"
+  },
+  "shop": {
+    "title": "ហាង",
+    "allProducts": "ផលិតផលទាំងអស់",
+    "filters": "តម្រង",
+    "sort": "តម្រៀប",
+    "sortFeatured": "ពិសេស",
+    "sortNewest": "ថ្មីបំផុត",
+    "sortName": "ឈ្មោះ A-Z",
+    "count": "{count} ផលិតផល",
+    "empty": "រកមិនឃើញផលិតផល",
+    "loading": "កំពុងផ្ទុក...",
+    "error": "មិនអាចផ្ទុកទិន្នន័យបានទេ"
+  }
+}

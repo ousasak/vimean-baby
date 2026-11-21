@@ -1,0 +1,88 @@
+{
+  "account": {
+    "metaDescription": "Manage your Vimean Baby account, orders and addresses.",
+    "hi": "Hi, {name}",
+    "hello": "Welcome back,",
+    "welcomeNew": "Your account is ready. Welcome to Vimean Baby!",
+    "memberSince": "Member since {date}",
+    "logout": "Sign out",
+    "manage": "Manage",
+    "edit": "Edit",
+    "personalInfo": "Personal information",
+    "defaultAddress": "Default delivery address",
+    "noAddress": "You haven't saved a delivery address yet.",
+    "addAddress": "Add address",
+    "profileSubtitle": "Keep your details up to date for smooth deliveries.",
+    "profileSaved": "Your profile has been updated.",
+    "saveChanges": "Save changes",
+    "noChanges": "No changes to save.",
+    "dateOfBirth": "Date of birth",
+    "gender": "Gender",
+    "genderUnset": "Prefer not to say",
+    "genders": {
+      "FEMALE": "Female",
+      "MALE": "Male",
+      "OTHER": "Other"
+    },
+    "validation": {
+      "dateOfBirth": "Date of birth must be in the past."
+    },
+    "nav": {
+      "overview": "Overview",
+      "profile": "My profile",
+      "orders": "My orders",
+      "addresses": "Addresses",
+      "security": "Login & security"
+    },
+    "tiles": {
+      "orders": "Track, return or buy again",
+      "addresses": "{count} saved address(es)",
+      "security": "Password and sign-in"
+    },
+    "security": {
+      "changePassword": "Change password",
+      "changePasswordHint": "Changing your password signs you out on all other devices.",
+      "currentPassword": "Current password",
+      "newPassword": "New password",
+      "updatePassword": "Update password",
+      "passwordChanged": "Your password has been changed.",
+      "sessions": "Signed-in devices",
+      "sessionsHint": "Lost a phone or used a shared computer? Sign out everywhere.",
+      "lastSignIn": "Last sign-in",
+      "signOutAll": "Sign out of all devices",
+      "confirmSignOutAll": "Sign out of all devices, including this one?"
+    }
+  },
+  "orders": {
+    "subtitle": "Your order history and delivery status.",
+    "emptyTitle": "No orders yet",
+    "emptyBody": "When you place an order, it will appear here so you can track it."
+  },
+  "address": {
+    "subtitle": "Save addresses for faster checkout. You can keep up to 10.",
+    "newTitle": "New address",
+    "editTitle": "Edit address",
+    "receiverName": "Recipient name",
+    "province": "Province / City",
+    "district": "District / Khan",
+    "commune": "Commune / Sangkat",
+    "streetDetail": "House no., street, village",
+    "streetPlaceholder": "e.g. #12, St. 271",
+    "note": "Delivery note",
+    "notePlaceholder": "Landmark or delivery instructions (optional)",
+    "setDefault": "Use as my default address",
+    "save": "Save address",
+    "saved": "Address saved.",
+    "default": "Default",
+    "makeDefault": "Set as default",
+    "defaultUpdated": "Default address updated.",
+    "delete": "Delete",
+    "deleted": "Address deleted.",
+    "confirmDelete": "Delete this address?",
+    "emptyTitle": "No saved addresses",
+    "emptyBody": "Add a delivery address to check out faster next time.",
+    "validation": {
+      "required": "This field is required."
+    }
+  }
+}

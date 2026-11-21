@@ -1,0 +1,29 @@
+{
+  "product": {
+    "addToCart": "+ CART",
+    "onlyLeft": "Only {count} left",
+    "discount": "-{percent}%",
+    "from": "From",
+    "outOfStock": "Out of stock",
+    "description": "Description",
+    "variants": "Options",
+    "age": "Age",
+    "origin": "Origin",
+    "brand": "Brand",
+    "featured": "Featured",
+    "expiry": "Expiry"
+  },
+  "shop": {
+    "title": "Shop",
+    "allProducts": "All products",
+    "filters": "Filter",
+    "sort": "Sort",
+    "sortFeatured": "Featured",
+    "sortNewest": "Newest",
+    "sortName": "Name A-Z",
+    "count": "{count} products",
+    "empty": "No products found",
+    "loading": "Loading...",
+    "error": "Could not load data"
+  }
+}

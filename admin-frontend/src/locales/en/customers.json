@@ -1,0 +1,33 @@
+{
+  "subtitle": "{count} registered customers",
+  "searchPlaceholder": "Search by name, email or phone",
+  "customer": "Customer",
+  "email": "Email",
+  "phone": "Phone",
+  "joined": "Joined",
+  "lastLogin": "Last sign-in",
+  "disabled": "Disabled",
+  "empty": "No customers yet",
+  "emptyHint": "Customers appear here when they create an account on the store.",
+  "dateOfBirth": "Date of birth",
+  "gender": "Gender",
+  "genders": {
+    "FEMALE": "Female",
+    "MALE": "Male",
+    "OTHER": "Other"
+  },
+  "addresses": "Addresses ({count})",
+  "noAddresses": "No saved addresses",
+  "default": "Default",
+  "note": "Note",
+  "orderHistory": "Order history",
+  "ordersComing": "This customer's orders will be listed here once checkout goes live.",
+  "disable": "Disable account",
+  "enable": "Enable account",
+  "disableTitle": "Disable this account?",
+  "disableMessage": "{name} will be signed out everywhere and won't be able to sign in until the account is enabled again.",
+  "enableTitle": "Enable this account?",
+  "enableMessage": "{name} will be able to sign in and shop again.",
+  "disabledToast": "Account disabled",
+  "enabledToast": "Account enabled"
+}

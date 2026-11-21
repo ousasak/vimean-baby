@@ -1,0 +1,18 @@
+{
+  "GENERIC": "Something went wrong. Please try again.",
+  "NETWORK": "Cannot reach the server. Check your connection and try again.",
+  "VALIDATION": "Please check the highlighted fields.",
+  "BAD_REQUEST": "The request was invalid. Please try again.",
+  "INVALID_CREDENTIALS": "Incorrect email/phone or password.",
+  "ACCOUNT_DISABLED": "This account has been disabled. Please contact support.",
+  "EMAIL_TAKEN": "This email is already registered. Try signing in instead.",
+  "PHONE_TAKEN": "This phone number is already registered. Try signing in instead.",
+  "INVALID_PHONE": "Enter a valid Cambodian phone number.",
+  "TOKEN_INVALID": "Your session has expired. Please sign in again.",
+  "UNAUTHORIZED": "Please sign in to continue.",
+  "FORBIDDEN": "You don't have permission to do that.",
+  "WRONG_PASSWORD": "Your current password is incorrect.",
+  "SAME_PASSWORD": "Your new password must be different from the current one.",
+  "ADDRESS_LIMIT": "You can save up to 10 addresses. Delete one to add another.",
+  "CONFLICT": "This information is already in use."
+}

@@ -1,0 +1,33 @@
+{
+  "greeting": {
+    "morning": "Good morning",
+    "afternoon": "Good afternoon",
+    "evening": "Good evening"
+  },
+  "ordersNotice": "Orders and revenue reports will appear here once checkout goes live.",
+  "stats": {
+    "inventoryValue": "Inventory value",
+    "units": "{count} units in stock",
+    "products": "Products",
+    "publishedDrafts": "{published} published · {drafts} drafts",
+    "customers": "Customers",
+    "newCustomers": "+{count} in the last 30 days",
+    "attention": "Needs attention",
+    "attentionHint": "{low} low · {out} out · {expiring} expiring"
+  },
+  "signups": {
+    "title": "New customers",
+    "subtitle": "Sign-ups over the last 14 days"
+  },
+  "catalogHealth": "Catalog health",
+  "sellableVariants": "Sellable variants",
+  "thresholds": "Low stock at {threshold} units or fewer · expiry warning {days} days ahead",
+  "lowStock": "Low stock",
+  "expiring": "Expiring soon",
+  "allStocked": "Everything is well stocked.",
+  "noExpiring": "Nothing is expiring soon.",
+  "noExpiringHint": "No variants expire within the next {days} days.",
+  "byCategory": "Products by category",
+  "recentProducts": "Recently added products",
+  "recentCustomers": "Newest customers"
+}

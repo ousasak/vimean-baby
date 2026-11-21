@@ -1,0 +1,19 @@
+{
+  "main": "Main navigation",
+  "openMenu": "Open menu",
+  "viewStore": "View store",
+  "dashboard": "Dashboard",
+  "orders": "Orders",
+  "customers": "Customers",
+  "products": "Products",
+  "inventory": "Inventory",
+  "categories": "Categories",
+  "brands": "Brands",
+  "settings": "Settings",
+  "groups": {
+    "overview": "Overview",
+    "sales": "Sales",
+    "catalog": "Catalog",
+    "system": "System"
+  }
+}

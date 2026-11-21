@@ -1,0 +1,27 @@
+{
+  "name": "vimean-baby",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vimean Baby - Mother & Baby E-Commerce Platform for Cambodia",
+  "scripts": {
+    "dev": "npx --yes concurrently -n \"api,admin\" -c \"blue,green\" \"npm run dev:api\" \"npm run dev:admin\"",
+    "dev:all": "npx --yes concurrently -n \"api,admin,storefront\" -c \"blue,green,magenta\" \"npm run dev:api\" \"npm run dev:admin\" \"npm run dev:storefront\"",
+    "dev:api": "cd backend && ./mvnw spring-boot:run",
+    "dev:admin": "npm --prefix admin-frontend run dev",
+    "dev:storefront": "npm --prefix user-frontend run dev",
+    "dev:mobile": "if [ -d mobile ]; then cd mobile && flutter run; else echo '⚠️ Mobile directory (mobile/) not initialized yet. Run Flutter in mobile/ when ready.'; fi",
+    "setup": "bash ./scripts/setup.sh",
+    "install": "npm --prefix admin-frontend install && npm --prefix user-frontend install",
+    "db:migrate": "bash ./scripts/db-migrate.sh",
+    "db:seed": "python3 scripts/seed_neon_catalog.py",
+    "build": "npm --prefix admin-frontend run build && npm --prefix user-frontend run build",
+    "build:admin": "npm --prefix admin-frontend run build",
+    "build:storefront": "npm --prefix user-frontend run build",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "docker:logs": "docker compose logs -f"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

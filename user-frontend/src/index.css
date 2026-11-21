@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-brand: #ff2e51;
+  --color-brand-light: #ff8297;
+  --color-brand-tint: #ffe6ea;
+  --color-blush: #f4a6b8;
+  --color-blush-tint: #fde4ec;
+  --color-mint: #8fd3b6;
+  --color-mint-tint: #ddf3e8;
+  --color-cream: #fff9f0;
+  --color-ink: #2b3a4a;
+  --color-muted: #6b7785;
+  --color-line: #e8e2d9;
+  --color-danger: #e5534b;
+  --color-warn: #f0a030;
+}
+
+html {
+  font-family: 'Kantumruy Pro', 'Noto Sans Khmer', system-ui, sans-serif;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+html.dark body {
+  background-color: #0B0F19;
+  color: #F1F5F9;
+}
+
+html.dark .bg-white {
+  background-color: #0F172A;
+}
+
+html.dark .bg-cream {
+  background-color: #0B0F19;
+}
+
+html.dark .text-ink {
+  color: #F1F5F9;
+}
+
+html.dark .text-muted {
+  color: #94A3B8;
+}
+
+html.dark .border-line {
+  border-color: #334155;
+}
+
+html.dark header > div.bg-white {
+  background-color: #0F172A !important;
+  border-bottom-color: #1E293B !important;
+}
+
+html.dark .card-surface {
+  background-color: #0F172A;
+  border-color: #1E293B;
+}
+
+html.dark .btn-ghost {
+  background-color: #1E293B;
+  border-color: #334155;
+  color: #F1F5F9;
+}
+
+html.dark .badge-sale,
+html.dark .badge-success,
+html.dark .badge-warn {
+  color: #0F172A;
+}
+
+body {
+  @apply bg-cream text-ink antialiased;
+}
+
+@layer components {
+  .container-store {
+    @apply mx-auto w-full max-w-7xl;
+  }
+
+  .section-pad {
+    @apply px-4 py-10 sm:px-6 lg:px-8 lg:py-14;
+  }
+
+  .btn-primary {
+    @apply inline-flex min-h-12 items-center justify-center rounded-2xl bg-brand px-5 text-sm font-semibold text-white transition hover:bg-brand/90;
+  }
+
+  .btn-ghost {
+    @apply inline-flex min-h-12 items-center justify-center rounded-2xl border border-line bg-white px-5 text-sm font-semibold text-ink transition hover:bg-brand-tint/60;
+  }
+
+  .badge-sale {
+    @apply inline-flex items-center rounded-full bg-blush-tint px-2.5 py-1 text-[11px] font-medium text-ink;
+  }
+
+  .badge-success {
+    @apply inline-flex items-center rounded-full bg-mint-tint px-2.5 py-1 text-[11px] font-medium text-ink;
+  }
+
+  .badge-warn {
+    @apply inline-flex items-center gap-1.5 rounded-full bg-blush-tint px-2.5 py-1 text-[11px] font-medium text-ink;
+  }
+
+  .card-surface {
+    @apply rounded-card border border-line bg-white shadow-soft;
+  }
+
+  .input-store {
+    @apply min-h-12 w-full rounded-2xl border border-line bg-white px-4 text-sm text-ink outline-none transition placeholder:text-muted/60 focus:border-brand focus:ring-4 focus:ring-brand/10 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-100;
+  }
+
+  .shadow-soft {
+    box-shadow: 0 10px 28px rgba(43, 58, 74, 0.08);
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition-property: opacity, transform;
+    transition-duration: 600ms;
+    transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .reveal-visible {
+    opacity: 1;
+    transform: none;
+  }
+
+  .animate-fade-up {
+    animation: fade-up 600ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .animate-fade-up {
+    opacity: 1;
+    transform: none;
+    transition: none;
+    animation: none;
+  }
+}

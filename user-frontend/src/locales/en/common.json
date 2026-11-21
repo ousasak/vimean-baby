@@ -1,0 +1,22 @@
+{
+  "app": {
+    "name": "Vimean Baby",
+    "tagline": "Mother and baby products",
+    "utilityTagline": "From everyday to premium — all in one place"
+  },
+  "common": {
+    "previous": "Previous",
+    "next": "Next",
+    "cancel": "Cancel",
+    "retry": "Try again"
+  },
+  "locale": {
+    "cambodia": "Cambodia (USD $, EN)",
+    "km": "ខ្មែរ",
+    "en": "English"
+  },
+  "search": {
+    "all": "All",
+    "placeholder": "Search products..."
+  }
+}

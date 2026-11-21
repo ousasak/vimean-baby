@@ -1,0 +1,21 @@
+{
+  "subtitle": "Track stock levels and expiry dates, and adjust quantities quickly.",
+  "searchPlaceholder": "Search by product name or SKU",
+  "filters": {
+    "all": "All",
+    "low": "Low stock",
+    "out": "Out of stock",
+    "expiring": "Expiring soon"
+  },
+  "empty": {
+    "low": "No low-stock variants",
+    "out": "Nothing is out of stock",
+    "expiring": "Nothing is expiring soon"
+  },
+  "left": "{count} left",
+  "daysLeft": "{count} days left",
+  "onHand": "On hand",
+  "adjust": "Set stock",
+  "newStockFor": "New stock for {sku}",
+  "stockSaved": "Stock updated for {sku}"
+}

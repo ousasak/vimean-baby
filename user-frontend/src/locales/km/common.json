@@ -1,0 +1,22 @@
+{
+  "app": {
+    "name": "Vimean Baby",
+    "tagline": "ផលិតផលសម្រាប់ម៉ាក់និងកូន",
+    "utilityTagline": "ពីប្រចាំថ្ងៃដល់គុណភាពខ្ពស់ — នៅកន្លែងតែមួយ"
+  },
+  "common": {
+    "previous": "មុន",
+    "next": "បន្ទាប់",
+    "cancel": "បោះបង់",
+    "retry": "ព្យាយាមម្តងទៀត"
+  },
+  "locale": {
+    "cambodia": "កម្ពុជា (USD $, KM)",
+    "km": "ខ្មែរ",
+    "en": "English"
+  },
+  "search": {
+    "all": "ទាំងអស់",
+    "placeholder": "ស្វែងរកផលិតផល..."
+  }
+}

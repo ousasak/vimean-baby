@@ -1,0 +1,11 @@
+{
+  "subtitle": "Track and fulfil customer orders.",
+  "comingTitle": "Orders arrive with checkout",
+  "comingBody": "Online checkout isn't live yet. Once it launches, every order will appear here with its payment and delivery status.",
+  "steps": {
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "shipping": "Shipping",
+    "delivered": "Delivered"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "subtitle": "Organize products so customers can find them quickly.",
+  "add": "Add category",
+  "edit": "Edit category",
+  "name": "Category",
+  "sortOrder": "Sort order",
+  "image": "Category image",
+  "activeHint": "Inactive categories are hidden from the store.",
+  "created": "Category created",
+  "saved": "Category saved",
+  "empty": "No categories yet",
+  "viewProducts": "View products",
+  "deactivateTitle": "Deactivate this category?",
+  "deactivateMessage": "{name} will be hidden from the store. Its products are not deleted."
+}

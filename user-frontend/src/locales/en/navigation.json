@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "products": "Products",
+    "categories": "Categories",
+    "blog": "Blog & News",
+    "contact": "Contact",
+    "cart": "Cart",
+    "account": "My Account",
+    "support": "Customer Support",
+    "search": "Search"
+  },
+  "footer": {
+    "about": "About Us",
+    "menu": "Menu",
+    "help": "Help & Contact",
+    "helpIntro": "Need any advice before you buy? We're here to help.",
+    "contactUs": "Contact Us",
+    "brandBlurb": "Share contact information, store details and brand content with your customers.",
+    "privacy": "Privacy",
+    "shipping": "Shipping guidelines",
+    "returns": "Refund policy",
+    "terms": "Terms of Use",
+    "tagline": "Mother & baby essentials for Cambodia",
+    "backToTop": "Back to top",
+    "rights": "All rights reserved",
+    "newsletterTitle": "Get baby-care tips & offers",
+    "newsletterBody": "Join our list for new arrivals and COD-friendly deals.",
+    "newsletterPlaceholder": "Your email",
+    "newsletterThanks": "Thanks for subscribing!",
+    "subscribe": "Join"
+  }
+}

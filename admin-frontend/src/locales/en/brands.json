@@ -1,0 +1,12 @@
+{
+  "subtitle": "Manage the brands you sell.",
+  "add": "Add brand",
+  "edit": "Edit brand",
+  "name": "Brand name",
+  "logo": "Logo",
+  "created": "Brand created",
+  "saved": "Brand saved",
+  "empty": "No brands yet",
+  "deactivateTitle": "Deactivate this brand?",
+  "deactivateMessage": "{name} will be hidden from the store. Its products are not deleted."
+}

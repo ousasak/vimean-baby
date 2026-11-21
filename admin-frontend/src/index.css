@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-brand: #ff2e51;
+  --color-brand-light: #ff8297;
+  --color-brand-tint: #ffe6ea;
+  --color-blush: #f4a6b8;
+  --color-blush-tint: #fde4ec;
+  --color-mint: #8fd3b6;
+  --color-mint-tint: #ddf3e8;
+  --color-cream: #fff9f0;
+  --color-ink: #2b3a4a;
+  --color-muted: #6b7785;
+  --color-line: #e8e2d9;
+  --color-danger: #e5534b;
+  --color-warn: #f0a030;
+}
+
+html {
+  font-family: 'Kantumruy Pro', 'Noto Sans Khmer', system-ui, sans-serif;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-cream text-ink antialiased transition-colors duration-200 dark:bg-slate-950 dark:text-slate-100;
+}
+
+/* Custom dark mode utility helpers */
+html.dark header {
+  background-color: #0F172A !important;
+  border-bottom-color: #1E293B !important;
+}
+
+html.dark aside {
+  background-color: #0F172A !important;
+  border-right-color: #1E293B !important;
+}
+
+html.dark .bg-white {
+  background-color: #0F172A;
+}
+
+html.dark .bg-cream {
+  background-color: #0B0F19;
+}
+
+html.dark .bg-surface {
+  background-color: #0F172A;
+}
+
+html.dark .text-ink {
+  color: #F1F5F9;
+}
+
+html.dark .text-ink-muted {
+  color: #94A3B8;
+}
+
+html.dark .border-line {
+  border-color: #334155;
+}
+
+html.dark .border-line\/70 {
+  border-color: rgba(51, 65, 85, 0.7);
+}
+
+html.dark .border-line\/50 {
+  border-color: rgba(51, 65, 85, 0.5);
+}
+
+html.dark .hover\:bg-surface\/60:hover {
+  background-color: rgba(30, 41, 59, 0.6);
+}
+
+html.dark .hover\:bg-surface:hover {
+  background-color: #1E293B;
+}
+
+html.dark .bg-brand-tint {
+  background-color: rgba(255, 46, 81, 0.15);
+  color: #FCA5A5;
+}
+
+html.dark .bg-mint-tint {
+  background-color: rgba(16, 185, 129, 0.15);
+  color: #6EE7B7;
+}
+
+html.dark select option {
+  background-color: #1E293B;
+  color: #F1F5F9;
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex min-h-10 items-center justify-center gap-2 rounded-xl px-4 text-sm font-semibold transition disabled:cursor-not-allowed disabled:opacity-60;
+  }
+
+  .btn-primary {
+    @apply btn bg-brand text-white shadow-sm shadow-brand/20 hover:bg-brand/90 active:scale-[0.99];
+  }
+
+  .btn-secondary {
+    @apply btn border border-line bg-white text-ink hover:bg-brand-tint/40 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100 dark:hover:bg-slate-700/80;
+  }
+
+  .btn-danger {
+    @apply btn bg-danger text-white shadow-sm hover:bg-danger/90 active:scale-[0.99];
+  }
+
+  .btn-icon {
+    @apply inline-flex h-9 w-9 items-center justify-center rounded-lg text-ink-muted transition hover:bg-brand-tint/40 hover:text-brand dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-slate-100;
+  }
+
+  .card {
+    @apply rounded-2xl border border-line bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900;
+  }
+
+  .field-label {
+    @apply mb-1.5 block text-sm font-semibold text-ink dark:text-slate-200;
+  }
+
+  .field-input {
+    @apply min-h-10 w-full rounded-xl border border-line bg-white px-3 text-sm text-ink outline-none transition placeholder:text-ink-muted/60 focus:border-brand focus:ring-4 focus:ring-brand/10 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100 dark:placeholder:text-slate-500;
+  }
+
+  /* Keep autofill clean without browser pale blue tint */
+  .field-input:-webkit-autofill,
+  .field-input:-webkit-autofill:hover, 
+  .field-input:-webkit-autofill:focus,
+  .field-input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    -webkit-text-fill-color: #2B3A4A !important;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+
+  html.dark .field-input:-webkit-autofill,
+  html.dark .field-input:-webkit-autofill:hover, 
+  html.dark .field-input:-webkit-autofill:focus,
+  html.dark .field-input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px #1E293B inset !important;
+    -webkit-text-fill-color: #F1F5F9 !important;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+
+  .field-error {
+    @apply mt-1 text-xs font-medium text-danger;
+  }
+
+  .table-head {
+    @apply bg-cream/70 text-left text-xs font-semibold uppercase tracking-wide text-ink-muted border-b border-line dark:bg-slate-800/80 dark:text-slate-400 dark:border-slate-700;
+  }
+
+  .table-cell {
+    @apply border-t border-line px-4 py-3 align-middle text-sm text-ink dark:border-slate-800 dark:text-slate-200;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-1.5 whitespace-nowrap rounded-full px-2.5 py-1 text-xs font-semibold;
+  }
+
+  .badge-success {
+    @apply badge bg-mint-tint text-ink dark:bg-emerald-950/60 dark:text-emerald-300;
+  }
+
+  .badge-pending {
+    @apply badge bg-warn/20 text-ink dark:bg-amber-950/60 dark:text-amber-300;
+  }
+
+  .badge-danger {
+    @apply badge bg-danger/10 text-danger dark:bg-rose-950/60 dark:text-rose-400;
+  }
+
+  .badge-neutral {
+    @apply badge bg-cream border border-line text-ink-muted dark:bg-slate-800 dark:border-slate-700 dark:text-slate-400;
+  }
+
+  .badge-brand {
+    @apply badge bg-brand-tint text-brand dark:bg-rose-950/60 dark:text-rose-300;
+  }
+}

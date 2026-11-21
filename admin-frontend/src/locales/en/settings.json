@@ -1,0 +1,16 @@
+{
+  "subtitle": "Manage your admin profile and security.",
+  "language": "Language",
+  "profile": "Profile",
+  "profileHint": "Your name and contact details.",
+  "fullName": "Full name",
+  "profileSaved": "Profile updated",
+  "password": "Password",
+  "passwordHint": "Use a strong password you don't use anywhere else.",
+  "currentPassword": "Current password",
+  "newPassword": "New password",
+  "confirmPassword": "Confirm new password",
+  "updatePassword": "Update password",
+  "passwordChanged": "Password changed",
+  "signOutOthers": "Changing your password signs you out on all other devices."
+}
